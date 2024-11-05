@@ -10,13 +10,13 @@ html, body {
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
-    color: #fff;
+    color: #1f15ac;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: red;
+    background-color: rgb(209, 186, 11);
     padding: 10px 0;
 }
 
@@ -29,7 +29,7 @@ header {
 
 #character-nav {
     background-color: #675050;
-    background-image: url(../images/characters_art_mas_mob_01.jpeg);
+    background-image: url(../images/van.jpg);
     background-size: cover;
     background-blend-mode: multiply;
 }
@@ -46,16 +46,16 @@ header {
     height: 220px;
     margin: 10px 8px; /*top, botttom, left right*/
     background-color: black;
-    box-shadow: 0 155px 0 0 rgb(255,0,0) inset;
+    box-shadow: 0 155px 0 0 rgb(209, 186, 11) inset;
     transition: box-shadow 0.2s ease-in-out;
 }
 
 #character-nav ul li:hover {
-    box-shadow: 0 220px 0 0 rgb(255,0,0) inset;
+    box-shadow: 0 220px 0 0 rgb(209, 186, 11) inset;
 }
 
 #character-nav ul li h2 {
-    color: white;
+    color: rgb(67, 126, 49);
     font-size: 16px;
     text-align: center;
 }
@@ -67,7 +67,7 @@ header {
 .sprite {
     width: 150px;
     height: 150px;
-    background-image: url(../images/marvelSprites.jpg);
+    background-image: url(../images/sprite2.png);
 }
 
 #carol {
@@ -125,17 +125,17 @@ footer {
     top: 0;
     left: 0;
     background-color: rgba(0,0,0,.85);
-    background-image: url(../images/Cap_LB_Bg.png);
+    background-image: url(../images/god.png);
     background-repeat: no-repeat;
     background-size: 55vh;
-    background-position: 40px bottom;
+    background-position: 40px 100px;
     display: none;
     text-align: right;
 }
 
 /* we overwrite cap using specific ids */
 #lightbox2 {
-    background-image: url(../images/carol.jpeg);
+    background-image: url(../images/Dayman.png);
 }
 
 #lightbox3 {
